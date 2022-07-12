@@ -1,0 +1,170 @@
+body{
+    background: linear-gradient(84deg, #003366 0%, #003153 100%);
+    margin: 0;
+    padding: 0;
+}
+.display{
+    width: 21.2vw;
+    height:8.5vh;
+    background-color: #000e18;
+    position: absolute;
+    top: 22vh;
+    border-radius: 9px;
+    outline: 3px solid rgb(2, 168, 190);
+    left: 40.05vw;
+    font-family:-apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+.number, .lastOp{
+    text-align: right;
+    color: white;
+    font-size: 35px;
+    font-weight: 100;
+    padding-top: 0px;
+    padding-right: 8px;
+    margin: 0;
+    overflow-x: hidden;
+}
+.lastOp{
+    margin: 0;
+    color: rgb(92, 92, 92);
+    font-size: 15px;
+    padding-top: 6px;
+    padding-bottom: 0px;
+}
+.btn{
+    align-items: center;
+    color: black;
+    background-color: white;
+    height: 5vh;
+    width: 5.4vw;
+    font-size: 20px;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: center;
+}
+.btn:hover{
+    cursor: pointer;
+    background-color: rgb(213, 235, 255);
+}
+.btn.c{
+    position: absolute;
+    top: 30vh;
+    left: 40vw;
+    border-left: 3px solid rgb(2, 168, 190);
+    background-color: #12436b;
+}
+.btn.pow{
+    position: absolute;
+    top: 30vh;
+    left: 45.3vw;
+    background-color: #1b5583;
+}
+.btn.sqrt{
+    position: absolute;
+    top: 30vh;
+    left: 50.6vw;
+    background-color: #1b5583;
+}
+.btn.del{
+    position: absolute;
+    top: 30vh;
+    left: 55.9vw;
+    border-right: 3px solid rgb(2, 168, 190);
+    background-color: #12436b;
+}
+.btn.t7{
+    position: absolute;
+    top: 34.9vh;
+    left: 40vw;
+    border-left: 3px solid rgb(2, 168, 190);
+}
+.btn.t8{
+    position: absolute;
+    top: 34.9vh;
+    left: 45.3vw;
+}
+.btn.t9{
+    position: absolute;
+    top: 34.9vh;
+    left: 50.6vw;
+}
+.btn.tdiv{
+    position: absolute;
+    top: 34.9vh;
+    left: 55.9vw;
+    background-color: #1b5583;
+    border-right: 3px solid rgb(2, 168, 190);
+}
+.btn.t4{
+    position: absolute;
+    top: 39.8vh;
+    left: 40vw;
+    border-left: 3px solid rgb(2, 168, 190);
+}
+.btn.t5 {
+    position: absolute;
+    top: 39.8vh;
+    left: 45.3vw;
+}
+.btn.t6 {
+    position: absolute;
+    top: 39.8vh;
+    left: 50.6vw;
+}
+.btn.tx{
+    position: absolute;
+    top: 39.8vh;
+    background-color: #1b5583;
+    left: 55.9vw;
+    border-right: 3px solid rgb(2, 168, 190);
+}
+.btn.t1 {
+    position: absolute;
+    top: 44.7vh;
+    left: 40vw;
+    border-left: 3px solid rgb(2, 168, 190);
+}
+.btn.t2 {
+    position: absolute;
+    top: 44.7vh;
+    left: 45.3vw;
+}
+.btn.t3 {
+    position: absolute;
+    top: 44.7vh;
+    left: 50.6vw;
+}
+.btn.tminus {
+    position: absolute;
+    top: 44.7vh;
+    left: 55.9vw;
+    background-color: #1b5583;
+    border-right: 3px solid rgb(2, 168, 190);
+}
+.btn.t0 {
+    position: absolute;
+    top: 49.6vh;
+    left: 40vw;
+    border-left: 3px solid rgb(2, 168, 190);
+    border-bottom: 3px solid rgb(2, 168, 190);
+}
+.btn.tp {
+    position: absolute;
+    top: 49.6vh;
+    left: 45.3vw;
+    border-bottom: 3px solid rgb(2, 168, 190);
+}
+.btn.tequal {
+    position: absolute;
+    top: 49.6vh;
+    left: 50.6vw;
+    background-color: #12436b;
+    border-bottom: 3px solid rgb(2, 168, 190);
+}
+.btn.tplus {
+    position: absolute;
+    top: 49.6vh;
+    left: 55.9vw;
+    background-color: #1b5583;
+    border-bottom: 3px solid rgb(2, 168, 190);
+    border-right: 3px solid rgb(2, 168, 190);
+}
