@@ -10,6 +10,9 @@ A calculator that can handle basic arithmetic operations like:
   - Exponentiation	
   
 
+>![My-Image](ignore.png)
+
+
 >![JavaScript](https://img.shields.io/badge/javascript-%23323330.svg?style=for-the-badge&logo=javascript&logoColor=%23F7DF1E)  
   ```
   function loadItems(){
